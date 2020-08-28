@@ -1,3 +1,5 @@
+package pl.sda;
+
 import java.util.ArrayList;
 
 public class Zamowienie {
@@ -31,7 +33,7 @@ public class Zamowienie {
     }
 
     public void zwrocZamowienie(){
-        System.out.println("Sklep: "+getSkleps().getNazwa() +" Miesiąc: "+getMsc()+" Rok: "+getRok());
+        System.out.println("pl.sda.Sklep: "+getSkleps().getNazwa() +" Miesiąc: "+getMsc()+" Rok: "+getRok());
     }
 
 }

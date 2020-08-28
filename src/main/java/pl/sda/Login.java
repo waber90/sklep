@@ -1,3 +1,5 @@
+package pl.sda;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -33,7 +35,7 @@ public class Login extends JFrame implements ActionListener {
             // Adding the listeners to components..
             submit.addActionListener(this);
             add(panel, BorderLayout.CENTER);
-            setTitle("Please Login Here !");
+            setTitle("Please pl.sda.Login Here !");
             setSize(450,350);
             setVisible(true);
         }
