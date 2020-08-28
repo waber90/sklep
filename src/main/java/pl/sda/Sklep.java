@@ -1,3 +1,5 @@
+package pl.sda;
+
 public class Sklep {
 
     private String NIP;
@@ -55,7 +57,7 @@ public class Sklep {
     }
 
     public void zwrocInfo(){
-        System.out.println("Sklep: '"+getNazwa()+"' znajduje sie na ul."+getUlica()+" "+getNr_dom()+"/"+getNr_lok());
+        System.out.println("pl.sda.Sklep: '"+getNazwa()+"' znajduje sie na ul."+getUlica()+" "+getNr_dom()+"/"+getNr_lok());
     }
 
 }
